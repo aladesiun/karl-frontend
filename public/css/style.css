@@ -1,0 +1,280 @@
+    /* ----------------------------------------------------------
+    :: Template Name: Karl - Fashion Ecommerce Template
+    :: Author: Colorlib
+    :: Author URL: https://colorlib.com
+    :: Description: Karl is smart & elegant fashion e-commerce Template. It's suitable for all e-commerce business platform. It's super responsive for all      Desktop/Mobile layout.
+    :: Version: 1.0
+    :: Created: 09 January 2018
+    :: Last Updated: 09 January 2018
+    ---------------------------------------------------------- */
+
+    /* -------------------------------------------------
+    ============ PLACE YOUR CUSTOM CSS HERE ============
+    ------------------------------------------------- */
+    .reg_wrap{
+        min-width: 32rem!important;
+        height: 400px;
+    }
+    .form_logo_img{
+        margin-top: 8px;
+    }
+    .form_logo_wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .top_header_area{
+        z-index: 1;
+    }
+    .dropdown_btn{
+        background: none!important;
+        color: #000!important;
+        font-weight: 700!important;
+        text-transform: uppercase;
+        font-size: 14px!important;
+        border: none!important;
+        transition: .5s;
+    }
+    .dropdown_btn:hover{
+        color: #ff084e!important;
+        transform: translateY(-3px)!important;
+        transition: .5s;    
+    }
+    .dropdown_btn:focus,.register_btn:focus{
+        box-shadow: none!important;
+        border: none;
+    }
+    .form-label{
+        cursor: pointer;
+    }
+    .register_input:focus{
+        box-shadow: 0px 0px 1px 1px lightgray!important;
+        border: 1px solid gray!important;
+        transition: .5s;
+    }
+    .register_btn{
+        border: 1px solid #ff084e!important;
+        background: #ff084e!important;
+        padding: 5px 30px!important;
+        color: #fff!important;
+    }
+    .create_acc{
+        color: #000;
+        text-decoration:underline;
+        font-size: 15px;
+    }
+    .create_acc:hover{
+        color: #ff084e;
+    }
+    .modal_dialog{
+        overflow-y: hidden;
+    }
+    .modal_header{
+        position: relative;
+        z-index: 1000;
+    }
+    .pull_up{
+        transform: translateY(-127%)!important; 
+    }
+    .navbar_toggler{
+        background: #ff084e!important;
+    }
+    .catagories-side-menu{
+        z-index: 20;
+    }
+    .side_bar{
+        width: 0px;
+    }   
+    .menu_content{
+       display: block!important;
+    }
+    .collapse:not(.show){
+        /* display: block!important; */
+    }
+    .owl_carousel{
+        display: block!important;
+    }
+    .b_seller{
+        width: auto;
+        height: 35px;
+        padding: 0 17px;
+        background-color: #ff084e;
+        color: #fff;
+        display: block;
+        line-height: 35px;
+        font-size: 14px;
+        font-weight: 600;
+        transition: .5s;
+        display: flex;
+        align-items: center;
+    }
+    .b_seller i{
+        font-size: 23px;
+        font-weight: 100;
+        padding: 6px 0px;
+        margin-left: 6px;
+    }
+    .b_seller:hover{
+        background-color: #000!important;
+    }
+    .nav_color a:hover{
+        color: #ff084e!important;
+    }
+/*------ sale-----*/
+
+
+
+.form_wrapper{
+    width:100%;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin:auto;
+    height: auto;
+    padding: 5px 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img2/img/sale-img/photo-1483985988355-763728e1935b.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5))!important; */
+    
+  }
+  .uplod_img_box{
+    height: auto;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    background: lightgray;
+    position: relative;
+    overflow: hidden;
+  }
+  .upload_img{
+    width: 100%;
+    height: -webkit-fill-available;
+    object-fit:contain;
+  }
+  .uplod_img_box i{
+    font-size: 57px;
+    transform: translate(131px, 154px);
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .upload_row{
+    margin-bottom: 1rem;
+  }
+  .upload_btn{
+    background: #ff084e!important;
+      color: #fff!important;
+      padding: 6px 16px !important;
+      justify-content: center;
+      align-items: center;
+      font-size: 15px!important;
+      margin-bottom: 1.5rem;
+  }
+  .upload_btn:focus{
+    box-shadow: none!important;
+    border: none !important;;
+  }
+     
+  .upload_btn p{
+    margin-bottom: 0px;
+    margin-right: 7px;
+    padding-top: 1px;
+    color: #fff!important;
+  }
+  .upload_input_file{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+  }
+  .upload_input_file i{
+    color: #fff;
+    font-size: 24px;
+    padding: 12px 0px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .upload_input_file input[type="file"]{
+    display: none!important;
+  }
+  .upload_wrap .pro_s{
+    margin-bottom: 0px;
+    color: #fff;
+    font-size: 13px;
+    padding-top: 5px;
+  }
+  .product_cont{
+    width: 50%;
+    margin-left: auto;
+    background: #00000066;
+    padding: 10px 10px;
+   }
+   .input_product label{
+    color: #fff;
+   }
+   .input_product input:focus,.input_product textarea:focus,.input_product select:focus{
+    border: 1px solid #ff084e!important;
+    box-shadow: 0px 0px 0px 1px #ff084e!important;
+   }
+   .input_product input,.input_product textarea,.input_product select{
+      transition: border .5s;
+   }
+   .txt_title{
+        color: #fff;
+        font-size: 20px;
+        font-family: monospace;
+   }
+  .camera_wrap{
+        background: #ff084e;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        right: 24px;
+        top: -13px;
+  }
+  
+
+
+
+
+
+    @media only screen and (max-width:767px){
+       .navbar_toggler{
+           width: 102px;
+           color: #fff!important;
+       }
+    }
+    @media only screen and (max-width:319px){
+        .single_discount_area{
+            max-width: 100%!important;
+            margin-bottom: 20px;
+        }
+        .navbar_collapse{
+            background: #fff;
+            border: 1px solid lightgray;
+        }
+        .navbar-toggler-icon{
+            padding: 4px 0px;
+        }
+        .top_logo a img{
+            max-width: 80px;
+        }
+        .header-right-side-menu > a{
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 18px;
+            border-radius: 50%;
+        }
+        .cart > a{
+            font-size: 12px;
+        }
+    }
+    @media only screen and (max-width:411px){
+        .form_wrapper{
+            width: 80%;
+        }
+
+    }
